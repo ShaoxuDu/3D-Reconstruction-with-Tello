@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="678f2b91-cd0d-41c3-a94b-895f13cb7259" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Tello$cut__1_.coverage" NAME="cut (1) Coverage Results" MODIFIED="1555491543828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Memorial" />
+    <SUITE FILE_PATH="coverage/Tello$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1555603750789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$main.coverage" NAME="main Coverage Results" MODIFIED="1556089619134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$Tello3.coverage" NAME="Tello3 Coverage Results" MODIFIED="1554984149872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tello$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1555603620147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$tello__2_.coverage" NAME="tello (2) Coverage Results" MODIFIED="1555642896720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$get_all_credit.coverage" NAME="get_all_credit Coverage Results" MODIFIED="1555659666968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/大三/python代码/data" />
+    <SUITE FILE_PATH="coverage/Tello$cut__2_.coverage" NAME="cut (2) Coverage Results" MODIFIED="1553071123193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Memorial/images" />
+    <SUITE FILE_PATH="coverage/Tello$cut.coverage" NAME="cut Coverage Results" MODIFIED="1552874481260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library" />
+    <SUITE FILE_PATH="coverage/Tello$tello.coverage" NAME="tello Coverage Results" MODIFIED="1555605203696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$v2p.coverage" NAME="v2p Coverage Results" MODIFIED="1551788614452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tello$h264decoder__1_.coverage" NAME="h264decoder (1) Coverage Results" MODIFIED="1555498589177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder-master/h264decoder-master" />
+    <SUITE FILE_PATH="coverage/Tello$t.coverage" NAME="t Coverage Results" MODIFIED="1555577319402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$tello__1_.coverage" NAME="tello (1) Coverage Results" MODIFIED="1555603786213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$get_man_credit.coverage" NAME="get_man_credit Coverage Results" MODIFIED="1555663705829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/大三/python代码/data" />
+    <SUITE FILE_PATH="coverage/Tello$tello_control_ui.coverage" NAME="tello_control_ui Coverage Results" MODIFIED="1556088657059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1555662942537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/大三/python代码/data" />
+    <SUITE FILE_PATH="coverage/Tello$tello_pose.coverage" NAME="tello_pose Coverage Results" MODIFIED="1555646843067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+    <SUITE FILE_PATH="coverage/Tello$parsers.coverage" NAME="parsers Coverage Results" MODIFIED="1555664250367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/pycharm/Anaconda3/envs/py36/Lib/site-packages/pandas/io" />
+    <SUITE FILE_PATH="coverage/Tello$get_table5.coverage" NAME="get_table5 Coverage Results" MODIFIED="1555664944549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/大三/python代码/data" />
+    <SUITE FILE_PATH="coverage/Tello$h264decoder.coverage" NAME="h264decoder Coverage Results" MODIFIED="1555505523704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1665848533">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="66" />
+          <entry key="pyi" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="66" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2588" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2588" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>decoder</find>
+      <find>_h264_decode</find>
+      <find>ack</find>
+      <find>response</find>
+      <find>snapshot</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/v2p.py" />
+        <option value="$PROJECT_DIR$/Memorial/images/cut.py" />
+        <option value="$PROJECT_DIR$/Memorial/cut.py" />
+        <option value="$PROJECT_DIR$/Tello3.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Single_Tello_Test/stats.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Single_Tello_Test/tello.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder-master/h264decoder-master/h264decoder.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_pose.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/t.py" />
+        <option value="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py" />
+        <option value="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/__init__.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py" />
+        <option value="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py" />
+        <option value="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_pose.py" />
+        <option value="$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py" />
+        <option value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_pose.py" />
+        <option value="$USER_HOME$/Desktop/大三/python代码/data/get_all_credit.py" />
+        <option value="$USER_HOME$/Desktop/大三/python代码/data/get_woman_credit.py" />
+        <option value="$USER_HOME$/Desktop/大三/python代码/data/ttt.py" />
+        <option value="$USER_HOME$/Desktop/大三/python代码/data/get_man_credit.py" />
+        <option value="$USER_HOME$/Desktop/大三/python代码/data/get_table5.py" />
+        <option value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py" />
+        <option value="$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py" />
+        <option value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py" />
+        <option value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="95" />
+    <option name="y" value="100" />
+    <option name="width" value="1785" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/大三/大三下/机器学习" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="get_man_credit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/大三/python代码/data" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/大三/python代码/data/get_man_credit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_table5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/大三/python代码/data" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/大三/python代码/data/get_table5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parsers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pycharm/Anaconda3/envs/py36/Lib/site-packages/pandas/io" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pycharm/Anaconda3/envs/py36/Lib/site-packages/pandas/io/parsers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tello_control_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.get_man_credit" />
+      <item itemvalue="Python.get_table5" />
+      <item itemvalue="Python.parsers" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.tello_control_ui" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.tello_control_ui" />
+        <item itemvalue="Python.get_table5" />
+        <item itemvalue="Python.parsers" />
+        <item itemvalue="Python.get_man_credit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="678f2b91-cd0d-41c3-a94b-895f13cb7259" name="Default Changelist" comment="" />
+      <created>1551787804077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551787804077</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="76" y="80" width="1428" height="744" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16277373" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31535947" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16277373" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/pycharm/Anaconda3/envs/py36/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/cut.py" />
+    <entry file="file://$PROJECT_DIR$/v2p.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/cut/cut.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memorial/images/cut.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Single_Tello_Test/tello.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder-master/h264decoder-master/h264decoder_threading.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder-master/h264decoder-master/h264decoder_perf.py" />
+    <entry file="file://$PROJECT_DIR$/Tello3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memorial/cut.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Single_Tello_Test/tello_test.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder-master/h264decoder-master/h264decoder.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Single_Tello_Test/stats.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py" />
+    <entry file="file://D:/pycharm/Anaconda3/envs/py36/Lib/site-packages/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_pose.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/h264decoder.py" />
+    <entry file="file://D:/pycharm/Anaconda3/envs/py36/Lib/site-packages/socks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="449" column="26" lean-forward="true" selection-start-line="449" selection-start-column="26" selection-end-line="449" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="552" column="66" lean-forward="true" selection-start-line="552" selection-start-column="58" selection-end-line="552" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/tello_state.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pycharm/Anaconda3/envs/py27/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="105" lean-forward="true" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_pose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5244">
+          <caret line="281" column="41" selection-start-line="281" selection-start-column="41" selection-end-line="281" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7729">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1444">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_pose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/get_all_credit.py" />
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/get_woman_credit.py" />
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/ttt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/get_man_credit.py" />
+    <entry file="file://D:/pycharm/Anaconda3/envs/py36/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="1698" lean-forward="true" selection-start-line="1698" selection-end-line="1698" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/get_table4.py" />
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/get_credit.py" />
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/order.py" />
+    <entry file="file://$USER_HOME$/Desktop/大三/python代码/data/get_table5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tello-Python27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pycharm/Anaconda3/envs/py27/Lib/encodings/utf_16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27/Tello-Python-master/Tello_Video_With_Pose_Recognition/tello_control_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pycharm/Anaconda3/envs/py27/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="339" column="8" selection-start-line="339" selection-start-column="8" selection-end-line="339" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
