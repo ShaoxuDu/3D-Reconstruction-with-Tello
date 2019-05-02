@@ -2,43 +2,37 @@
 
 ## Introduction
 
-This is a collection of python-based sample code that interact with the Ryze Tello drone.
+这是一组基于python的示例代码，与Tello无人机交互.
 
 ## Project Description
 
-This toolkit contains three sample programs based on tello sdk and python2.7,including Single_Tello_Test, Tello_Video, and Tello_Video (With_Pose_Recognition). There is also a program file named tello_state.py.
+这个项目包含两个基于Tello SDK和python 2.7 的示例程序，包括Single_Tello_Test和Tello_Video(With_Pose_Recognition). 一个包含一些官方文档的文件夹，一个包含一些程序依赖的文件夹，还有一个名为tello_state.py的文件.
 
 - **Single_Tello_Test**
 
- In Single_Tello_Test,You can design a series of command combinations by writing a txt script to let tello execute a series of actions you have designed. This program can also be used as a command set test tool for tello.
-
-- **Tello_Video**
-
- In Tello_Video，You can receive the video stream data from tello, decode the video through the h264 decoding library, and display it on a GUI interface based on Tkinter and PIL. In addition, it also supports a control panel that can operate tello. This sample code provides an example of receiving and processing and getting the correct video data. The source code of the h264 decoding library is also provided in the package, which can be used for your reference.
+在Single_Tello_Test中，可以通过编写txt脚本来设计一系列命令组合，让Tello执行设计的一系列操作。这个程序也可以用作Tello的命令集测试工具。
 
 - **Tello_Video(With_Pose_Recognition)**
 
- Tello_Video_With_Pose_Recognition is an application version modified from Tello_Video.It uses the decoded video data，and everytime extract a single frame image for pose recognition operation , and binds the specific posture and aircraft control commands to realize the pose control of Tello.This code is mainly used as an application case for utilizing the decoded video data of tello for image processing.
+ 在Tello_Video(With_Pose_Recognition),可以从Tello接收视频流数据,解码通过h264视频解码库,并将其在一个基于Tkinter和PIL的GUI接口上显示。也可通过提前规划路线，操作Tello按指定轨迹运动并在指定位置拍摄图片。此外，它还支持一个可以操作Tello的控制面板。此示例代码提供了接收、处理和获取正确视频数据的示例。包中还提供了h264解码库的源代码，供您参考。
+
+
+Tello_Video_With_Pose_Recognition是Tello_Video修改后的应用程序版本。它使用了视频数据解码,每次提取单帧图像构成识别操作,并结合特定的姿势和飞机控制命令来实现Tello的姿态控制。该代码主要用于将tello解码后的视频数据用于图像处理的应用实例。
 
 - **Tello_state.py**
 
- Tello_state.py can read the various status data of tello, and can be used as a tool to debug and view the status of tello.
+ 读取tello的各种状态数据，可以作为调试和查看tello状态的工具。
+
+- **Document**
+ 包括两个官方文档，一个是基本指令的调用方法，另一个是关于h264解码的一系列视频流传输问题的FAQ。
+
+- **tello_video_dll(ForWin64)**
+ 包括实现h264解码的一些dll依赖，需要将其放置在对应python版本的site-packages中
 
 ## Environmental configuration
-
-The sample codes above are based on python2.7.There is no need to install additional third-party libraries for running Single_Tello_Test and tello_state.py.For Tello_Video and Tello_Video (With_Pose_Recognition), you need to install a series of third-party libraries. Therefore, in these two folders, a one-click installation script (based on windows32/64, linux and macos) is provided, which can facilitate you with installing all relevant dependencies.
-
-Specific to the content and description of each package, you can refer to the readme file in the related folder. 
  
-## Contact Information
+ 实例程序在WIN64，python 2.7 的环境中运行，需要安装多个库如pillow，numpy等(opencv包可能需要通过直接保存对应的whl文件到site-packages中)
 
-If you have any questions about this sample code and the installation, please feel free to contact me. You can communicate with me by sending e-mail to sdk@ryzerobotics.com.
-And recently we have committed a new FAQ file under the 'Tello-Python'.If you have any questions,you can firstly refer to it .
-
-## About Multi-Tello-Formation
-
-Please refer to github repository https://github.com/TelloSDK/Multi-Tello-Formation.
-This is a python program that enable the function of multi-tello swarms. 
 
 
 
