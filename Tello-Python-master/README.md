@@ -24,9 +24,11 @@ Tello_Video_With_Pose_Recognition是Tello_Video修改后的应用程序版本。
  读取tello的各种状态数据，可以作为调试和查看tello状态的工具。
 
 - **Document**
+
  包括两个官方文档，一个是基本指令的调用方法，另一个是关于h264解码的一系列视频流传输问题的FAQ。
 
 - **tello_video_dll(ForWin64)**
+
  包括实现h264解码的一些dll依赖，需要将其放置在对应python版本的site-packages中
 
 ## Environmental configuration
