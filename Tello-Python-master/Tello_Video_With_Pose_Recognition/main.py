@@ -6,38 +6,39 @@ import math
 
 def send_command(drone, commands):
     for c in commands:
-        while True:
-            res = drone.send_command(c)
-            print(res)
-            # pgrevent instruction disorder
-            time.sleep(3)
-            if res == 'ok':
-                break
-
+        if c.find('delay') != -1:
+            sec = float(c.partition('delay')[2])
+            print 'delay %s' % sec
+            time.sleep(sec)
+            pass
+        else:
+            drone.send_command(c)
 
 def main():
 
-    drone = tello.Tello('', 8889)
-
-    # Manual control through UI interface
+    drone = tello.Tello()
+    # 
+    ##### Manual control through UI interface #####
     # vplayer = TelloUI(drone, "./img/")
     # vplayer.root.mainloop()
 
-    # Automatic Control of Advance Planning Route
+    ##### Automatic Control of Advance Planning Route #####
     # move_distance > 20 cm, 360 % rotate_degrees == 0
-    radius = 115
-    rotate_degrees = 10
+    radius = 100 
+    rotate_degrees = 18
     rotate_times = 360 // rotate_degrees
     move_distance = int(2 * radius * math.sin(rotate_degrees * math.pi / 360))
 
     rotate_command = 'ccw ' + str(rotate_degrees // 2)
-    start_command = ['command', 'takeoff', 'forward ' + str(radius), 'cw 180']
+    start_command = ['command', 'takeoff', 'delay 10', 'forward ' + str(radius), 'cw 180']
     loop_command = [rotate_command, 'right ' + str(move_distance), rotate_command]
     end_command = ['forward ' + str(radius), 'cw 180', 'land']
 
-    drone.set_speed(3)
+    drone.set_speed(100)
+
     # Takeoff from the center of a circle and Get to the edge
     send_command(drone, start_command)
+    
     # Circumferential motion around the center of a circle
     for i in range(rotate_times):
         send_command(drone, loop_command)

@@ -4,11 +4,12 @@ import time
 import numpy as np
 import libh264decoder
 import cv2
+from stats import Stats
 
 class Tello:
     """Wrapper class to interact with the Tello drone."""
 
-    def __init__(self, local_ip, local_port, imperial=False, command_timeout=.3, tello_ip='192.168.10.1',
+    def __init__(self, local_ip='', local_port=8889, imperial=False, command_timeout=.3, tello_ip='192.168.10.1',
                  tello_port=8889):
         """
         Binds to the local IP/port and puts the Tello into command mode.
@@ -23,7 +24,9 @@ class Tello:
         """
         self.image_num = 0
         self.abort_flag = False
+
         self.decoder = libh264decoder.H264Decoder()
+        
         self.command_timeout = command_timeout
         self.imperial = imperial
         self.response = None  
@@ -33,14 +36,13 @@ class Tello:
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # socket for sending cmd
         self.socket_video = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # socket for receiving video stream
         self.tello_address = (tello_ip, tello_port)
-        self.local_video_port = 11111  # port for receiving video stream
+        
         self.last_height = 0
         self.socket.bind((local_ip, local_port))
 
         # thread for receiving cmd ack
         self.receive_thread = threading.Thread(target=self._receive_thread)
         self.receive_thread.daemon = True
-
         self.receive_thread.start()
 
         # to receive video -- send cmd: command, streamon
@@ -48,18 +50,47 @@ class Tello:
         print ('sent: command')
         self.socket.sendto(b'streamon', self.tello_address)
         print ('sent: streamon')
-
+        
+        self.local_video_port = 11111  # port for receiving video streamon
         self.socket_video.bind((local_ip, self.local_video_port))
 
         # thread for receiving video
         self.receive_video_thread = threading.Thread(target=self._receive_video_thread)
         self.receive_video_thread.daemon = True
-
         self.receive_video_thread.start()
+
+        self.log = []
+        
+        self.MAX_TIME_OUT = 15.0
+
+    def send_command(self, command):
+        """
+        Send a command to the ip address. Will be blocked until
+        the last command receives an 'OK'.
+        If the command fails (either b/c time out or error),
+        will try to resend the command
+        :param command: (str) the command to send
+        :param ip: (str) the ip of Tello
+        :return: The latest command response
+        """
+        self.log.append(Stats(command, len(self.log)))
+
+        self.socket.sendto(command.encode('utf-8'), self.tello_address)
+        print 'sending command: %s to %s' % (command, 'mmm')
+
+        start = time.time()
+        while self.log[-1].got_response() is False:
+            now = time.time()
+            diff = now - start
+            if diff > self.MAX_TIME_OUT:
+                print 'Max timeout exceeded... command %s' % command
+                # TODO: is timeout considered failure or next command still get executed
+                # now, next one got executed
+                return
+        print 'Done!!! sent command: %s to %s' % (command, 'mmm')
 
     def __del__(self):
         """Closes the local socket."""
-
         self.socket.close()
         self.socket_video.close()
     
@@ -81,17 +112,15 @@ class Tello:
         self.image_num += 1
 
     def _receive_thread(self):
-        """Listen to responses from the Tello.
-
-        Runs as a thread, sets self.response to whatever the Tello last returned.
-
-        """
         while True:
             try:
-                self.response, ip = self.socket.recvfrom(3000)
-            except socket.error as exc:
-                print ("Caught exception socket.error : %s" % exc)
+                self.response, ip = self.socket.recvfrom(1024)  # 
+                print('from %s: %s' % (ip, self.response))
 
+                self.log[-1].add_response(self.response)
+            except socket.error, exc:
+                print "Caught exception socket.error : %s" % exc   
+    
     def _receive_video_thread(self):
         """
         Listens for video streaming (raw h264) from the Tello.
@@ -102,7 +131,8 @@ class Tello:
         packet_data = ""
         while True:
             try:
-                res_string, ip = self.socket_video.recvfrom(2048)  # 2048 means the max bytes can receive in this time
+                # 2048 means the max bytes can receive in this time
+                res_string, ip = self.socket_video.recvfrom(2048)  
                 packet_data += res_string
                 # end of frame
                 if len(res_string) != 1460:
@@ -114,6 +144,7 @@ class Tello:
             except socket.error as exc:
                 print ("Caught exception socket.error : %s" % exc)
     
+        
     def _h264_decode(self, packet_data):
         """
         decode raw h264 format data from Tello
@@ -122,49 +153,19 @@ class Tello:
        
         :return: a list of decoded frame
         """
+        if len(packet_data) == 0:
+            return
         res_frame_list = []
         frames = self.decoder.decode(packet_data)
         for framedata in frames:
             (frame, w, h, ls) = framedata
             if frame is not None:
-                # print 'frame size %i bytes, w %i, h %i, linesize %i' % (len(frame), w, h, ls)
-
                 frame = np.fromstring(frame, dtype=np.ubyte, count=len(frame), sep='')
                 frame = (frame.reshape((h, ls // 3, 3)))
                 frame = frame[:, :w, :]
                 res_frame_list.append(frame)
 
         return res_frame_list
-
-    def send_command(self, command):
-        """
-        Send a command to the Tello and wait for a response.
-
-        :param command: Command to send.
-        :return (str): Response from Tello.
-
-        """
-
-        print (">> send cmd: {}".format(command))
-        self.abort_flag = False
-        timer = threading.Timer(self.command_timeout, self.set_abort_flag)
-
-        self.socket.sendto(command.encode('utf-8'), self.tello_address)
-
-        timer.start()
-        while self.response is None:
-            if self.abort_flag is True:
-                break
-        timer.cancel()
-        
-        if self.response is None:
-            response = 'none_response'
-        else:
-            response = self.response.decode('utf-8')
-
-        self.response = None
-
-        return response
     
     def set_abort_flag(self):
         """
